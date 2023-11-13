@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>E-commerce Website</title>
+  </head>
+  <body>
+    <!-- website container -->
+    <div class="container mx-auto p-5">
+      <!-- header navbar -->
+      <nav class="md:flex md:flex-row md:justify-between text-center">
+        <!-- logo -->
+        <div class="flex flex-row justify-center">
+          <div
+            class="bg-gradient-to-r from-purple-400 to-red-400 w-10 h-10 rounded-lg"
+          ></div>
+          <h1 class="text-3xl text-gray-600 ml-2">Logo</h1>
+        </div>
+        <div class="flex flex-col md:flex-row mt-2">
+          <div>
+            <a href="" class="text-gray-600 hover:text-purple-600 p-4">Home</a>
+            <a href="" class="text-gray-600 hover:text-purple-600 p-4">Shop</a>
+            <a href="" class="text-gray-600 hover:text-purple-600 p-4">Blog</a>
+            <a href="" class="text-gray-600 hover:text-purple-600 p-4"
+              >Contact</a
+            >
+          </div>
+          <div class="mt-6 sm:mt-0">
+            <a
+              href=""
+              class="text-gray-50 bg-purple-600 hover:bg-purple-700 p-3 px-5 rounded-full"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 inline-block"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                />
+              </svg>
+
+              Cart (0)</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-----header navbar end----->
+
+      <!-- hero section -->
+      <div class="md:flex md:flex-row mt-20">
+        <div
+          class="md:w-2/5 flex flex-col justify-center items-center text-gray-600"
+        >
+          <h2
+            class="font-serif text-5xl mb-4 text-center md:self-start md:text-left"
+          >
+            Some catchy title here!
+          </h2>
+          <p
+            class="uppercase tracking-wide text-gray-600 text-center md:self-start md:text-left"
+          >
+            our brand title goes here.
+          </p>
+          <p
+            class="uppercase tracking-wide text-gray-600 text-center md:self-start md:text-left"
+          >
+            our brand moto goes here.
+          </p>
+          <a
+            href=""
+            class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-4 px-8 uppercase text-gray-50 text-xl md:self-start my-5"
+            >Shop now</a
+          >
+        </div>
+        <div class="md:w-3/5">
+          <img src="./images/hero-img.svg" alt="hero banner" />
+        </div>
+      </div>
+      <!-----hero section end----->
+
+      <div class="my-20">
+        <!-- Mens collection -->
+        <div class="flex flex-row justify-between my-5">
+          <h2 class="text-3xl">Men's Collection</h2>
+          <a href="" class="flex flex-row text-xl"
+            >View all
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-7 ml-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+              />
+            </svg>
+          </a>
+        </div>
+        <div
+          class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+        >
+          <div class="shadow-lg rounded-lg">
+            <a href="">
+              <img
+                src="./images/products/men/product1.jpg"
+                alt="product"
+                class="rounded-tr-lg rounded-tl-lg"
+              />
+            </a>
+            <div class="p-3">
+              <h3>
+                <a href="">Men's T-shirt</a>
+              </h3>
+              <div class="flex flex-row my-3">
+                <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div
+                  class="bg-green-600 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XXL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col justify-between">
+                <a
+                  href=""
+                  class="bg-gradient-to-r from-red-600 to-pink-500 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                  Add to cart
+                </a>
+                <a
+                  href=""
+                  class="bg-purple-600 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:bg-purple-700 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                    />
+                  </svg>
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg rounded-lg">
+            <a href="">
+              <img
+                src="./images/products/men/product2.jpg"
+                alt="product"
+                class="rounded-tr-lg rounded-tl-lg"
+              />
+            </a>
+            <div class="p-3">
+              <h3>
+                <a href="">Slim Khaki Trousers</a>
+              </h3>
+              <div class="flex flex-row my-3">
+                <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div
+                  class="bg-green-600 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XXL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col justify-between">
+                <a
+                  href=""
+                  class="bg-gradient-to-r from-red-600 to-pink-500 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                  Add to cart
+                </a>
+                <a
+                  href=""
+                  class="bg-purple-600 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:bg-purple-700 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                    />
+                  </svg>
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg rounded-lg">
+            <a href="">
+              <img
+                src="./images/products/men/product3.jpg"
+                alt="product"
+                class="rounded-tr-lg rounded-tl-lg"
+              />
+            </a>
+            <div class="p-3">
+              <h3>
+                <a href="">Nike Shoes</a>
+              </h3>
+              <div class="flex flex-row my-3">
+                <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div
+                  class="bg-green-600 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XXL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col justify-between">
+                <a
+                  href=""
+                  class="bg-gradient-to-r from-red-600 to-pink-500 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                  Add to cart
+                </a>
+                <a
+                  href=""
+                  class="bg-purple-600 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:bg-purple-700 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                    />
+                  </svg>
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg rounded-lg">
+            <a href="">
+              <img
+                src="./images/products/men/product4.jpg"
+                alt="product"
+                class="rounded-tr-lg rounded-tl-lg"
+              />
+            </a>
+            <div class="p-3">
+              <h3>
+                <a href="">Wrist Watch</a>
+              </h3>
+              <div class="flex flex-row my-3">
+                <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div
+                  class="bg-green-600 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XXL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col justify-between">
+                <a
+                  href=""
+                  class="bg-gradient-to-r from-red-600 to-pink-500 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                  Add to cart
+                </a>
+                <a
+                  href=""
+                  class="bg-purple-600 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:bg-purple-700 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                    />
+                  </svg>
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-----Mens's collection end----->
+
+        <!-- women's collection -->
+        <div class="flex flex-row justify-between my-5">
+          <h2 class="text-3xl">Women's Collection</h2>
+          <a href="" class="flex flex-row text-xl"
+            >View all
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-7 ml-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+              />
+            </svg>
+          </a>
+        </div>
+        <div
+          class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+        >
+          <div class="shadow-lg rounded-lg">
+            <a href="">
+              <img
+                src="./images/products/women/product1.jpg"
+                alt="product"
+                class="rounded-tr-lg rounded-tl-lg"
+              />
+            </a>
+            <div class="p-3">
+              <h3>
+                <a href="">V-neck Tassel Cape</a>
+              </h3>
+              <div class="flex flex-row my-3">
+                <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div
+                  class="bg-green-600 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XXL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col justify-between">
+                <a
+                  href=""
+                  class="bg-gradient-to-r from-red-600 to-pink-500 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                  Add to cart
+                </a>
+                <a
+                  href=""
+                  class="bg-purple-600 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:bg-purple-700 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                    />
+                  </svg>
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg rounded-lg">
+            <a href="">
+              <img
+                src="./images/products/women/product2.jpg"
+                alt="product"
+                class="rounded-tr-lg rounded-tl-lg"
+              />
+            </a>
+            <div class="p-3">
+              <h3>
+                <a href="">Printed Wrap Dress</a>
+              </h3>
+              <div class="flex flex-row my-3">
+                <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div
+                  class="bg-green-600 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XXL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col justify-between">
+                <a
+                  href=""
+                  class="bg-gradient-to-r from-red-600 to-pink-500 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                  Add to cart
+                </a>
+                <a
+                  href=""
+                  class="bg-purple-600 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:bg-purple-700 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                    />
+                  </svg>
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg rounded-lg">
+            <a href="">
+              <img
+                src="./images/products/women/product3.jpg"
+                alt="product"
+                class="rounded-tr-lg rounded-tl-lg"
+              />
+            </a>
+            <div class="p-3">
+              <h3>
+                <a href="">Blue Denim Dress</a>
+              </h3>
+              <div class="flex flex-row my-3">
+                <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div
+                  class="bg-green-600 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XXL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col justify-between">
+                <a
+                  href=""
+                  class="bg-gradient-to-r from-red-600 to-pink-500 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                  Add to cart
+                </a>
+                <a
+                  href=""
+                  class="bg-purple-600 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:bg-purple-700 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                    />
+                  </svg>
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg rounded-lg">
+            <a href="">
+              <img
+                src="./images/products/women/product4.jpg"
+                alt="product"
+                class="rounded-tr-lg rounded-tl-lg"
+              />
+            </a>
+            <div class="p-3">
+              <h3>
+                <a href="">High Wasit Denim Skirt</a>
+              </h3>
+              <div class="flex flex-row my-3">
+                <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2"></div>
+                <div
+                  class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+                <div
+                  class="bg-green-600 h-5 w-5 rounded-full shadow-md mr-2"
+                ></div>
+              </div>
+              <div class="flex flex-row my-3">
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XXL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  XL
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  L
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  M
+                </div>
+                <div
+                  class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2"
+                >
+                  S
+                </div>
+              </div>
+              <div class="flex flex-col justify-between">
+                <a
+                  href=""
+                  class="bg-gradient-to-r from-red-600 to-pink-500 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:from-pink-600 hover:to-pink-600 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                  Add to cart
+                </a>
+                <a
+                  href=""
+                  class="bg-purple-600 justify-center rounded-full my-2 py-2 px-4 text-gray-50 flex flex-row hover:bg-purple-700 text-sm"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 mr-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                    />
+                  </svg>
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-----women's collection end----->
+      </div>
+      <!-- newsletter section -->
+      <div
+        class="rounded-lg shadow-lg my-20 flex flex-row bg-gradient-to-r lg:from-black lg:via-purple-900 lg:to-transparent from-black to-purple-900"
+      >
+        <div class="lg:w-3/5 w-full p-12">
+          <div class="lg:w-1/2 text-gray-100">
+            <h3 class="text-2xl font-extrabold mb-4">
+              Subscribe to get our offers first.
+            </h3>
+            <p class="mb-4 leading-relaxed">
+              Want to hear from us when we have new offes? Sign up for our
+              newsletter and we will email you every time we have new sale
+              offers.
+            </p>
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              class="bg-gray-600 text-gray-200 placeholder-gray-400 px-4 py-3 w-full rounded-lg focus:outline-none mb-4"
+            />
+            <button type="submit" class="bg-red-600 py-3 rounded-lg w-full">
+              Subscribe
+            </button>
+          </div>
+        </div>
+        <div class="lg:w-2/5 w-full lg:flex lg:flex-row hidden">
+          <img
+            src="./images/subscribe-banner.png"
+            alt="subscribe banner"
+            class="h-96"
+          />
+        </div>
+      </div>
+      <!-----newsletter section end----->
+
+      <footer
+        class="border-t-2 border-gray-300 flex flex-col md:flex-row md:justify-between text-center py-5"
+      >
+        <div>
+          <a href="" class="mx-2.5">About</a>
+          <a href="" class="mx-2.5">Privacy Policy</a>
+          <a href="" class="mx-2.5">Terms of Services</a>
+        </div>
+        <p>&copy; Copyrights reserved 2023</p>
+      </footer>
+    </div>
+  </body>
+</html>
